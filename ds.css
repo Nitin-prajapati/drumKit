@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(198, 72, 236);
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2%;
+}
+
+#drumIcon {
+    color: rgb(228, 162, 39);
+}
+
+.keys {
+    /* border: solid rebeccapurple; */
+    height: 15em;
+    width: 10em;
+    /* margin: 10px; */
+}
+
+.drumkey {
+    border: 5px solid rgb(83, 4, 79);
+    border-radius: 10px;
+    text-align: center;
+    /* font-size: em; */
+}
+
+.keybox {
+    margin-top: 100px;
+}
+
+.w {
+    background-image: url("images/tom1.png");
+}
+
+.a {
+    background-image: url("images/tom2.png");
+}
+
+.s {
+    background-image: url("images/tom3.png");
+}
+
+.d {
+    background-image: url("images/tom4.png");
+}
+
+.j {
+    background-image: url("images/snare.png");
+}
+
+.k {
+    background-image: url("images/crash.png");
+}
+
+.l {
+    background-image: url("images/kick.png");
+}
+
+.keyname {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: sans-serif;
+    text-shadow: .5 .5 .5 grey;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+}
